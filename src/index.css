@@ -1,0 +1,57 @@
+@font-face{
+	src: url(fonts/Product_Sans/@font-face/05093c1553c8ca12edeb59994bedc772.ttf);
+	font-family: SansOne;
+}
+
+@font-face{
+	src: url(poppins/PoppinsLatinRegular.ttf);
+	font-family: Poppins;
+}
+
+
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html{
+  background-color: #e5e5e5;
+}
+
+*{
+  font-family: Poppins !important;
+}
+
+#toggle{
+  justify-content: start;
+    background-color: white;
+    border: #188f47 1.5px solid;
+    animation-duration: 700ms;
+    animation-name: toggle;
+}
+
+@keyframes toggle {
+  from {
+   background-color:#188f47;
+   justify-content: end;
+  }
+
+  to {
+   background-color: white;
+   justify-content: start;
+  }
+}
+
+
+#toggle>div{
+  background-color: #188f47;
+  
+}
